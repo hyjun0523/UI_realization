@@ -1,0 +1,148 @@
+.container {
+  width: 100%;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.tag{
+  margin-top: 5%;
+  padding: 0;
+}
+
+ .tag ul{
+   list-style: none;
+   text-align: center;
+ }
+
+ .tag ul li{
+  color: white;
+  display:inline-block;
+  border: 2px solid #C0C6CA;
+  background-color: #C0C6CA;
+  padding: 10px;
+  border-top-left-radius:1em;
+  border-top-right-radius:1em;
+  border-bottom-right-radius:1em;
+  border-bottom-left-radius:1em;
+ }
+
+
+ .intro ul{
+  
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 50%;
+  margin-left:25%; 
+  margin-bottom: 10%;
+ 
+ }
+
+ 
+ .intro h2{
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+ .intro li{
+  font-size: 25px;
+ 
+ }
+
+
+ .intro1{
+   margin-bottom: 7%;
+ }
+
+ 
+
+
+ .apply{
+  color: white;
+  position:fixed; 
+  border: 2px solid #1E90FF;
+  width: 25%;
+  left: 35%;
+  top: 92%; 
+  text-align: center;
+  background-color: #1E90FF;
+  border-top-left-radius:1em;
+  border-top-right-radius:1em;
+  border-bottom-right-radius:1em;
+  border-bottom-left-radius:1em;
+ }
+
+ .topframe {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+ .topframe img{
+   max-width: 100%;
+   height: auto;
+   display: block;
+ }
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}

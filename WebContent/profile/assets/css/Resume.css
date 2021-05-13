@@ -1,0 +1,288 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+.container-fluid{
+	text-align:center;
+}
+
+body{
+    display: block;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: black;
+}
+
+.container-resume{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrap-resume{
+    width: 920px;
+    padding: 62px 55px 90px 55px;
+    overflow: hidden;
+    background: white;
+    border: 3px solid #e6e6e6 ;
+    /* box-shadow: 5px 5px darkgrey; */
+    border-radius: 10px
+}
+
+.resume-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resume-form-title{
+    display: block;
+    width: 100%;
+    font-size: 39px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 59px;
+    font-weight: 400;
+}
+
+.resume-input1{
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    /* border-radius: 13px; */
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+.resume{
+    width: 100%;
+    font-size: 40px;
+    /* border-bottom: 0.5px solid #e6e6e6; */
+    padding: 10px 30px 9px 22px;
+    background-color: white;
+}
+
+.resume.info{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.temp{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.main-name{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.label-tel,
+.label-email{
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #393939;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.label{
+    font-family: Montserrat-SemiBold;
+    font-size: 20px;
+    font-weight: 700;
+    color: #393939;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+input, select{
+    outline: none;
+    border: none;
+    overflow: visible;
+    touch-action: manipulation;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+input.input1{
+    height: 40px;
+}
+
+textarea{
+    outline: none;
+    border: none;
+    overflow: auto;
+    resize: vertical;
+    flex-direction: column;
+    white-space: pre-wrap;
+    column-count: initial;
+}
+
+textarea.input1{
+    min-height: 120px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+.input1{
+    display: block;
+    width: 100%;
+    /* background: transparent; */
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    padding-right: 15px;
+}
+
+.input1.cb{
+    color: blue;
+}
+
+
+.select-container{
+    display: block;
+    max-width: 100% !important;
+    width: auto !important;
+    margin: 0;
+    position: relative;
+}
+
+
+input.eduname{
+    width: 25%; 
+    height: 40px;
+    /* background: transparent; */
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2; 
+    border-bottom: 0.5px solid #555555;
+    margin-right: 20px;
+}
+
+input.education{
+    width: 50%; 
+    height: 40px;
+    /* background: transparent; */
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2; 
+    border-bottom: 0.5px solid #555555;
+}
+
+input.careername{
+    width: 40%; 
+    height: 40px;
+    /* background: transparent; */
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2; 
+    border-bottom: 0.5px solid #555555;
+    margin-right: 20px;
+
+}
+
+select.year{
+    width: 50%; 
+    height: 40px;
+    /* background: transparent; */
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2; 
+    border-bottom: 0.5px solid #555555;
+}
+
+
+select{
+    width: 100%;
+}
+
+.js-select{
+    font-size: 18px;
+    color: #555555;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background-color: transparent; */
+    border: none;
+    height: 40px;
+    outline: none;
+    position: relative;
+}
+
+input[type=text]:focus::placeholder{
+    color: transparent;
+}
+
+textarea:focus::placeholder{
+    color: transparent;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnTemp{
+    margin-right: 20px;
+    background-color: #e6e6e6;
+    border: #e6e6e6 1px solid;
+    border-radius: 50px;
+    height: 50px;
+    width: 20%;
+    
+}
+
+.btnSubmit{
+    border-radius: 50px;
+    background-color: #e6e6e6;
+    border: #e6e6e6 1px solid;
+    margin-left: 20px;
+    width: 20%;
+    height: 50px;
+}
+
+.btnTemp:hover,
+.btnSubmit:hover{
+    background-color: black;
+    color: white;
+}
+
+.btnCareer,
+.btnEdu{
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,64 @@
+
+ html{
+   width: 100%;
+ }
+ 
+
+ 
+ .choice{
+    
+    font-size: 30px;
+    text-align: center;
+   
+  }
+
+  #list{
+    list-style: none;
+    text-align: center;
+  }
+
+  .job{
+    margin-top: 5%;
+    padding: 0;
+  }
+  
+  
+  
+  
+   .job ul li{
+    color: white;
+    display:inline-block;
+    border: 2px solid gray;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 1%;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+   }
+  
+   .field{
+    margin-top: 1%;
+    padding: 0;
+  }
+  
+   .field ul li{
+    color: white;
+    display:inline-block;
+    border: 2px solid gray;
+    background-color: gray;
+    padding: 10px;
+    
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
+   }
+
+  .card-body{
+    list-style: none;
+  }
+
+  
+ 
